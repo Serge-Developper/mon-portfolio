@@ -27,7 +27,7 @@ export default function ProjectsPage({ params }: { params: Promise<{ locale: str
               <div className="h-48 overflow-hidden relative bg-[#282c33]">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <Image
-                    src="/images/Group 65.svg"
+                    src="/images/planifylogo.png"
                     alt="ChertNodes background"
                     width={600}
                     height={300}
@@ -39,14 +39,14 @@ export default function ProjectsPage({ params }: { params: Promise<{ locale: str
                 </div>
               </div>
               <div className="border-t border-[#abb2bf] p-2 text-xs">
-                <p>HTML CSS Javascript</p>
+                <p>Vue.js Node.js Mongo DB</p>
               </div>
               <div className="p-4">
                 <h3 className="text-xl text-white mb-2">Planify</h3>
                 <p className="text-sm mb-4">{isEn ? "Showcase website" : "Site web vitrine"}</p>
                 <div className="flex gap-2">
                   <Link
-                    href="https://serge-developper.github.io"
+                    href="https://planifymmi.fr/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="border border-[#c778dd] px-4 py-1 text-white text-sm hover:bg-[#c778dd]/10 transition-colors flex items-center gap-1"
