@@ -44,7 +44,7 @@ export default function ProjectsPage() {
                 <p className="text-sm mb-4">Student website project</p>
                 <div className="flex gap-2">
                   <Link
-                    href="https://serge-developper.github.io"
+                    href="https://planifymmi.fr/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="border border-[#c778dd] px-4 py-1 text-white text-sm hover:bg-[#c778dd]/10 transition-colors flex items-center gap-1"
